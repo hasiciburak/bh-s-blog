@@ -1,1 +1,2 @@
-# bh-s-blog
+## bh-s-blog
+This is my blog site :)
