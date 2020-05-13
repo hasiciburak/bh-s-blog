@@ -33,7 +33,7 @@ body {
     width: 210px;
     height: 102px;
     object-fit: contain;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display',serif;
     font-size: 38px;
     font-weight: 600;
     font-stretch: normal;
@@ -50,9 +50,8 @@ body {
 .HSCs-Blog {
     width: 101px;
     height: 27px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Quattrocento Sans', serif;
     font-size: 25px;
-    font-weight: 700;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.35;
@@ -111,4 +110,24 @@ body {
 
 .custom-nav-item {
     padding-right: 15px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 50px;
+}
+
+#footer-header {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+.icon-styling{
+    font-size: 18px;
+}
+#bottom-rule{
+    border: 1px solid black;
 }
