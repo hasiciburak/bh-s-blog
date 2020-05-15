@@ -10,6 +10,20 @@
     display: inline-block;
 }
 
+.theme-light {
+    --color-primary: #0060df;
+    --color-secondary: #fbfbfe;
+    --color-accent: #fd6f53;
+    --font-color: #000000;
+}
+
+.theme-dark {
+    --color-primary: #17ed90;
+    --color-secondary: #243133;
+    --color-accent: #12cdea;
+    --font-color: #ffffff;
+}
+
 body {
     padding-left: 10%;
     padding-right: 10%;
@@ -33,7 +47,7 @@ body {
     width: 210px;
     height: 102px;
     object-fit: contain;
-    font-family: 'Playfair Display',serif;
+    font-family: 'Playfair Display', serif;
     font-size: 38px;
     font-weight: 600;
     font-stretch: normal;
@@ -113,11 +127,10 @@ body {
 }
 
 #footer {
-    position: fixed;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 #footer-header {
@@ -125,12 +138,56 @@ body {
     font-weight: bold;
     font-size: 35px;
 }
-.icon-styling{
+
+.icon-styling {
     font-size: 18px;
 }
-#bottom-rule{
+
+#bottom-rule {
     border: 1px solid black;
 }
-#brand-logo{
+
+#brand-logo {
     font-family: 'Quattrocento Sans', 'Helvetica Neue';
 }
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: var(--color-secondary);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    color: var(--font-color);
+}
+
+.container button {
+    color: var(--font-color);
+    background: var(--color-primary);
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#article-content {
+    width: 90%;
+    margin: auto;
+}
+
+.article-text {
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 30px;
+}
+.last-paragraph{
+    margin-bottom: 200px;
+}
+
+.twitter-share-button {}
+
+
+

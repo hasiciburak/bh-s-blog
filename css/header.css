@@ -61,3 +61,14 @@
     opacity: 1;
   }
 }
+
+#big-header {
+    font-size: 50px;
+}
+
+.article-header {
+    font-family: 'Playfair Display',serif;
+    font-weight: 700;
+    margin-bottom: 50px;    
+}
+
